@@ -1,0 +1,29 @@
+
+############  ############  ############
+Documentation
+Welcome to the Prolog Sentiment Analyzer.
+By selecting option 1 in the menu, it will run the procedure for analyzing a text.
+By selecting that option it will be asked to enter the input sentence to be analyzed. A correct input is composed by one or more words separated by space.
+No signs and other special characters are allowed. Also remeber to type words in non plural form, in lowercase and verbs possibly in the root form. This is 
+a simple sentiment analyzer, based on a dictionary extracted from "SentiWordNet v3.0.0", so consider that a limited amount of words can be accepted.
+Once the input is entered it will proceed with a pipeline of operations, that will return a final outcome.
+It will be displayed both the pipeline and the final result.
+
+
+Some example of good input:
+
+- i like to eat apple
+
+- he is a very bad person
+
+- the reason of his good behaviour is that he is a good person
+
+Some examples of bad input:
+
+- i like to play abcdef
+
+- we are  not happy today
+
+- me and you, love to watch a movie
+
+By selecting option 3, the program will end.
