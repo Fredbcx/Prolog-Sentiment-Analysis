@@ -174,7 +174,7 @@ Alternatively, directly open the file with SWI-Prolog.
 ![Figure 10: Acceptable input](images/image-20251022130735667.png)
 
 
-![Figure 11: Unacceptable input](images/bad_input.png):--:|
+![Figure 11: Unacceptable input](images/bad_input.png)
 
 
 
