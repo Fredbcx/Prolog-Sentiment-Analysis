@@ -10,7 +10,7 @@ A sentiment analysis system implemented in Prolog, combining Natural Language Pr
 
 ## 📋 Table of Contents
 
-- [Introduction](#introduction)
+- [Introduction](#🎯Introduction)
 - [Features](#features)
 - [System Architecture](#system-architecture)
 - [Prerequisites](#prerequisites)
@@ -59,8 +59,6 @@ The implementation combines NLP techniques with data from the **SentiWordNet lex
 
 ![Figure 1: Graphical schema of usage](images/image-20251022123222592.png)
 
-|*Figure 1: Graphical schema of usage*
-
 The system consists of three main modules:
 
 1. **GUI (Main.java)**: JavaFX-based graphical interface for user interaction
@@ -75,7 +73,6 @@ The system consists of three main modules:
    - `sent_wordnet.pl`: SentiWordNet lexicon database
 
 ![Figure 2: Dependency diagram](images/image-20251022123849576.png)
-*Figure 2: Dependency diagram*
 
 ------
 
@@ -119,30 +116,26 @@ PrologSentimentAnalysis.bat
 1. The JavaFX interface will open
 
 ![Figure 3: Menu of the application](iamges/menu.png)
-*Figure 3: Menu of the application*
+
 
 1. Enter a sentence in the input field and click **Submit**
 2. View the analysis results in the modal window
 
 ![good_input](images/good_input.png)
-*Figure 6: Acceptable input result*
+
 
 **Accessing Documentation:** Click on the "Help" menu in the top-left corner to view usage instructions.
 
-
-
 ![Figure 4: Documentation path](images/help_doc.png)
-*Figure 4: Documentation path*
+
 
 ![Figure 5: Documentation](images/doc.png)
-*Figure 5: Documentation*
 
 
 **Error Handling:** If invalid input is entered, an error modal will appear with helpful tips.
 
 ![Figure 7: Unacceptable input error](images/bad_input.png)
 
-*Figure 7: Unacceptable input error*
 
 ------
 
@@ -160,8 +153,6 @@ Alternatively, directly open the file with SWI-Prolog.
 ⚠️ **Important:** Before consulting, modify line 40 in `Sent_Analysis.pl` to update the path to `cons_doc.txt`:
 
 ![Figure 8: Line of code to modify](images/image-20251022130323982.png)
-*Figure 8: Line of code to modify*
-
 
 
 1. The main menu will launch automatically. To run manually:
@@ -171,7 +162,7 @@ Alternatively, directly open the file with SWI-Prolog.
 ```
 
 ![Figure 9: Console menu](images/cmenu.png)
-*Figure 9: Console menu*
+
 
 1. Choose an option:
    - **1**: Analyze a sentence
@@ -181,11 +172,9 @@ Alternatively, directly open the file with SWI-Prolog.
 **Example Usage:**
 
 ![Figure 10: Acceptable input](images/image-20251022130735667.png)
-*Figure 10: Acceptable input*
+
 
 ![Figure 11: Unacceptable input](images/bad_input.png):--:|
-*Figure 11: Unacceptable input*
-
 
 
 
@@ -197,7 +186,7 @@ Alternatively, directly open the file with SWI-Prolog.
 ### Processing Pipeline
 
 ![Pipeline diagram](images/image-20251022133621556.png)
-*Pipeline diagram*
+
 
 The system processes input text through the following stages:
 
