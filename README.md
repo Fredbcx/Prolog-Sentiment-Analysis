@@ -115,7 +115,7 @@ PrologSentimentAnalysis.bat
 
 1. The JavaFX interface will open
 
-![Figure 3: Menu of the application](iamges/menu.png)
+![Figure 3: Menu of the application](images/menu.png)
 
 
 1. Enter a sentence in the input field and click **Submit**
