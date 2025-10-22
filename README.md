@@ -10,23 +10,23 @@ A sentiment analysis system implemented in Prolog, combining Natural Language Pr
 
 ## 📋 Table of Contents
 
-- [Introduction](#🎯Introduction)
-- [Features](#features)
-- [System Architecture](#system-architecture)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
+- [Introduction](#-Introduction)
+- [Features](#-features)
+- [System Architecture](#-system-architecture)
+- [Prerequisites](#-prerequisites)
+- [Installation](#-installation)
 - Usage
-  - [GUI Version](#gui-version)
-  - [Console Version](#console-version)
+  - [GUI Version](#-gui-version)
+  - [Console Version](#-console-version)
 - How It Works
-  - [Processing Pipeline](#processing-pipeline)
-  - [Text Preprocessing](#text-preprocessing)
-  - [Lexical Analysis](#lexical-analysis)
-  - [Score Calculation](#score-calculation)
-- [Project Structure](#project-structure)
-- [Examples](#examples)
-- [Limitations and Future Improvements](#limitations-and-future-improvements)
-- [License](#license)
+  - [Processing Pipeline](#-processing-pipeline)
+  - [Text Preprocessing](#-text-preprocessing)
+  - [Lexical Analysis](#-lexical-analysis)
+  - [Score Calculation](#-score-calculation)
+- [Project Structure](#-project-structure)
+- [Examples](#-examples)
+- [Limitations and Future Improvements](#-limitations-and-future-improvements)
+- [License](#-license)
 
 ------
 
