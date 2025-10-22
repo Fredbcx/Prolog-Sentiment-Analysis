@@ -30,7 +30,7 @@ A sentiment analysis system implemented in Prolog, combining Natural Language Pr
 
 ------
 
-## 🎯 Introduction
+# 🎯 Introduction
 
 Sentiment analysis, also known as opinion mining, is a computational technique that determines the sentiment or emotional tone expressed in text. This project leverages **Prolog**, a logic programming language, to implement a rule-based sentiment analysis system.
 
@@ -44,7 +44,7 @@ The implementation combines NLP techniques with data from the **SentiWordNet lex
 
 ------
 
-## ✨ Features
+# ✨ Features
 
 - **Dual Interface**: Access via GUI (JavaFX) or console (SWI-Prolog)
 - **Rule-Based System**: Uses declarative Prolog rules for linguistic pattern matching
@@ -55,13 +55,11 @@ The implementation combines NLP techniques with data from the **SentiWordNet lex
 
 ------
 
-## 🏗️ System Architecture
+# 🏗️ System Architecture
 
-|![Figure 1: Graphical schema of usage](images/image-20251022123222592.png)|
+![Figure 1: Graphical schema of usage](images/image-20251022123222592.png)
 
-|:--:|
-
-|*Figure 1: Graphical schema of usage*|
+|*Figure 1: Graphical schema of usage*
 
 The system consists of three main modules:
 
@@ -76,17 +74,12 @@ The system consists of three main modules:
    - `sent_modifiers.pl`: Dictionary of indicators, intensifiers, and negations
    - `sent_wordnet.pl`: SentiWordNet lexicon database
 
-|![Figure 2: Dependency diagram](images/image-20251022123849576.png)
-
-|
-
-|:--:|
-
-|*Figure 2: Dependency diagram*|
+![Figure 2: Dependency diagram](images/image-20251022123849576.png)
+*Figure 2: Dependency diagram*
 
 ------
 
-## 📦 Prerequisites
+# 📦 Prerequisites
 
 - **SWI-Prolog**: Required for running the Prolog engine
 - **Java**: Required for the GUI version (JDK 8 or higher recommended)
@@ -94,7 +87,7 @@ The system consists of three main modules:
 
 ------
 
-## 🚀 Installation
+# 🚀 Installation
 
 1. Clone this repository:
 
@@ -112,7 +105,7 @@ java -version
 
 ------
 
-## 💻 Usage
+# 💻 Usage
 
 ### GUI Version
 
@@ -125,45 +118,31 @@ PrologSentimentAnalysis.bat
 
 1. The JavaFX interface will open
 
-|![Figure 3: Menu of the application](iamges/menu.png)|
-
-|:--:|
-
-|*Figure 3: Menu of the application*|
+![Figure 3: Menu of the application](iamges/menu.png)
+*Figure 3: Menu of the application*
 
 1. Enter a sentence in the input field and click **Submit**
 2. View the analysis results in the modal window
 
-|![good_input](images/good_input.png)|
-
-|:--:|
-
-|*Figure 6: Acceptable input result*|
+![good_input](images/good_input.png)
+*Figure 6: Acceptable input result*
 
 **Accessing Documentation:** Click on the "Help" menu in the top-left corner to view usage instructions.
 
 
 
-|![Figure 4: Documentation path](images/help_doc.png)|
+![Figure 4: Documentation path](images/help_doc.png)
+*Figure 4: Documentation path*
 
-|:--:|
-
-|*Figure 4: Documentation path*|
-
-|![Figure 5: Documentation](mages/doc.png)|
-|:--:|
-
-|*Figure 5: Documentation*|
-
+![Figure 5: Documentation](images/doc.png)
+*Figure 5: Documentation*
 
 
 **Error Handling:** If invalid input is entered, an error modal will appear with helpful tips.
 
-|![Figure 7: Unacceptable input error](images/bad_input.png)|
+![Figure 7: Unacceptable input error](images/bad_input.png)
 
-|:--:|
-
-|*Figure 7: Unacceptable input error*|
+*Figure 7: Unacceptable input error*
 
 ------
 
@@ -180,11 +159,8 @@ Alternatively, directly open the file with SWI-Prolog.
 
 ⚠️ **Important:** Before consulting, modify line 40 in `Sent_Analysis.pl` to update the path to `cons_doc.txt`:
 
-|![Figure 8: Line of code to modify](images/image-20251022130323982.png)|
-
-|:--:|
-
-|*Figure 8: Line of code to modify*|
+![Figure 8: Line of code to modify](images/image-20251022130323982.png)
+*Figure 8: Line of code to modify*
 
 
 
@@ -194,11 +170,8 @@ Alternatively, directly open the file with SWI-Prolog.
 ?- main.
 ```
 
-|![Figure 9: Console menu](images/cmenu.png)|
-
-|:--:|
-
-|*Figure 9: Console menu*|
+![Figure 9: Console menu](images/cmenu.png)
+*Figure 9: Console menu*
 
 1. Choose an option:
    - **1**: Analyze a sentence
@@ -207,17 +180,11 @@ Alternatively, directly open the file with SWI-Prolog.
 
 **Example Usage:**
 
-|![Figure 10: Acceptable input](images/image-20251022130735667.png)|
+![Figure 10: Acceptable input](images/image-20251022130735667.png)
+*Figure 10: Acceptable input*
 
-|:--:|
-
-|*Figure 10: Acceptable input*|
-
-|![Figure 11: Unacceptable input](images/bad_input.png)|
-
-|:--:|
-
-|*Figure 11: Unacceptable input*|
+![Figure 11: Unacceptable input](images/bad_input.png):--:|
+*Figure 11: Unacceptable input*
 
 
 
@@ -229,11 +196,8 @@ Alternatively, directly open the file with SWI-Prolog.
 
 ### Processing Pipeline
 
-|![Pipeline diagram](images/image-20251022133621556.png)|
-
-|:--:|
-
-|*Pipeline diagram*|
+![Pipeline diagram](images/image-20251022133621556.png)
+*Pipeline diagram*
 
 The system processes input text through the following stages:
 
